@@ -2,8 +2,6 @@
 
 # BeforeYouGo - iOS Health Companion
 
-<div align="center">
-
 **Turn raw health data into actionable insights and show up to appointments prepared**
 
 [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://www.apple.com/ios/)
