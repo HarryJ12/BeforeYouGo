@@ -346,16 +346,6 @@ Displays: "What Doctor Found" + "What This Means" + "What to Do"
 
 ---
 
-## License
-
-Copyright © 2026 BeforeYouGo. All rights reserved.
-
-This project is proprietary software developed at ViTAL Hacks 2026.
-
----
-
-<div align="center">
-
 **Built with care by the BeforeYouGo Team at ViTAL Hacks 2026**
 
 *Empowering patients, one health insight at a time*
