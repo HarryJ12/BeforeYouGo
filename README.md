@@ -1,4 +1,6 @@
-# BeforeYouGo - iOS Health Companion
+<div align="center">
+
+    # BeforeYouGo - iOS Health Companion
 
 <div align="center">
 
