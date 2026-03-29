@@ -1,6 +1,6 @@
 <div align="center">
 
-#BeforeYouGo - iOS Health Companion
+# BeforeYouGo - iOS Health Companion
 
 <div align="center">
 
