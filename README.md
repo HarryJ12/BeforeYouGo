@@ -1,6 +1,6 @@
-<div align="center">
-
 # BeforeYouGo - iOS Health Companion
+
+<div align="center">
 
 **Turn raw health data into actionable insights and show up to appointments prepared**
 
@@ -17,7 +17,7 @@
 
 Most patients walk into and out of appointments confused.
 
-Health data exists (Apple Health, wearables), but there’s little real interpretation.
+Health data exists (Apple Health, wearables), but there's little real interpretation.
 
 Finding providers that accept your insurance is also unnecessarily difficult.
 
@@ -81,7 +81,7 @@ cd beforeyougo
 
 2. **Open in Xcode**
 ```bash
-open BeforeYouGo.xcodeproj
+open ios/beforeyougo.xcodeproj
 ```
 
 3. **Configure Backend URL**
@@ -115,9 +115,19 @@ php artisan serve --host=0.0.0.0 --port=8000
 ## Project Structure
 ```
 beforeyougo/
-├── app/ (Laravel backend)
-├── beforeyougo/ (iOS app)
-├── database/
+├── backend/            (Laravel REST API)
+│   ├── app/
+│   │   ├── Http/Controllers/
+│   │   ├── Models/
+│   │   └── Services/
+│   ├── database/
+│   └── routes/
+└── ios/                (Swift/SwiftUI app)
+    └── beforeyougo/
+        ├── Views/
+        ├── ViewModels/
+        ├── Models/
+        └── Services/
 ```
 
 ## Data Flow
@@ -162,6 +172,12 @@ LLM Processes Notes + Translates Medical Jargon
     ↓
 Displays: "What Doctor Found" + "What This Means" + "What to Do"
 ```
+
+---
+
+## Demo Video
+
+https://www.youtube.com/watch?v=UqvuFMXZHvA&feature=youtu.be
 
 ---
 
