@@ -96,23 +96,7 @@ private let baseURL = "http://YOUR_SERVER_IP:8000"
 - Click "+ Capability"
 - Add "HealthKit"
 
-5. **Update Info.plist**
-Add required permissions:
-```xml
-<key>NSHealthShareUsageDescription</key>
-<string>BeforeYouGo needs access to your health data to provide personalized insights and track your wellness journey.</string>
-
-<key>NSHealthUpdateUsageDescription</key>
-<string>BeforeYouGo can write health data to help you track your progress.</string>
-
-<key>NSLocationWhenInUseUsageDescription</key>
-<string>BeforeYouGo uses your location to find nearby healthcare providers.</string>
-
-<key>NSCameraUsageDescription</key>
-<string>BeforeYouGo needs camera access to scan insurance cards and capture documents.</string>
-```
-
-6. **Build and Run**
+5. **Build and Run**
 - Connect your iPhone (HealthKit requires a physical device)
 - Select your device in the Xcode toolbar
 - Press Command+R
