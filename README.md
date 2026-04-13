@@ -165,12 +165,6 @@ Displays: "What Doctor Found" + "What This Means" + "What to Do"
 
 ---
 
-## Demo Video
-
-https://www.youtube.com/watch?v=UqvuFMXZHvA&feature=youtu.be
-
----
-
 ## License
 
 Copyright © 2026 BeforeYouGo. All rights reserved.
