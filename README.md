@@ -27,6 +27,8 @@ Finding providers that accept your insurance is also unnecessarily difficult.
 - meaningful trends
 - actionable appointment prep
 
+Live Demo: https://www.youtube.com/watch?v=UqvuFMXZHvA
+
 ---
 
 ## Key Features
